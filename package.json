@@ -41,7 +41,8 @@
   },
   "scripts": {
     "prepublish": "make js",
-    "postpublish": "make clean"
+    "postpublish": "make clean",
+    "install" : "echo \"running install \"; echo \"running second install\";"
   },
   "main": "js/document",
   "browserify": {
